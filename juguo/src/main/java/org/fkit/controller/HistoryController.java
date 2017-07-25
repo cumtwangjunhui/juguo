@@ -34,7 +34,7 @@ public class HistoryController {
 			// 获得所有图书集合
 					List<Lisi> lisi_list=lisiService.getAll();
 					model.addAttribute("lisi_list",lisi_list);
-					//返回收藏的页面
+					//返回历史的页面
 			return "history";
 }
 		@SuppressWarnings("null")
